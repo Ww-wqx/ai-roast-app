@@ -9,7 +9,7 @@ client = OpenAI(
     http_client=httpx.Client(trust_env=False, timeout=30)
 )
 
-st.title("🤖 AI吐槽机（智能配图版·免API）")
+st.title("🤖 吐槽吧")
 
 # 🎯 用关键词生成图片（无需API）
 def get_image(keyword):
